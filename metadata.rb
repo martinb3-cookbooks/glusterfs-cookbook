@@ -9,6 +9,8 @@ recipe 'glusterfs::server', 'Installs and configures glusterfs server.'
 recipe 'glusterfs::peer', 'Installs and configures glusterfs server as a peer.'
 recipe 'glusterfs::client', 'Installs and configures glusterfs client and mounts volumes.'
 
+depends "apt"
+
 %w{ ubuntu }.each do |os|
   supports os
 end
