@@ -1,3 +1,4 @@
+name 'glusterfs'
 maintainer 'Andrew McCloud'
 maintainer_email 'andrew@amccloud.com'
 license 'All rights reserved'
